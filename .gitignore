@@ -1,0 +1,28 @@
+# =========================
+# Excel temporary / lock files
+# =========================
+~$*.xlsx
+~$*.xls
+
+# =========================
+# Power BI temporary files (if any)
+# =========================
+*.pbix~
+
+# =========================
+# Operating System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE files (safe to ignore)
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Optional: Logs / temp files
+# =========================
+*.log
+*.tmp
