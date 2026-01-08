@@ -1,72 +1,74 @@
 # Dashboard Theme & Design Notes
 
-This document outlines the visual design choices used across dashboards in this repository.  
-The goal of the theme is to improve **readability, consistency, and insight clarity**, not decoration.
+This document describes the **visual design standards** used across dashboards in this portfolio.
+The objective is to ensure **clarity, consistency, and business readability**, not visual decoration.
 
 ---
 
-## 🎯 Design Principles
+## 🎯 Design Philosophy
 
-- Prioritize **data clarity over aesthetics**
-- Maintain **visual consistency** across all dashboards
-- Avoid unnecessary colors, gradients, and effects
-- Ensure dashboards are readable in screenshots and presentations
+- Data clarity is always prioritized over aesthetics
+- Visual consistency is maintained across all dashboards
+- Colors are used to **communicate meaning**, not decoration
+- Dashboards are designed to be readable in:
+  - Executive reviews
+  - Interview walkthroughs
+  - Exported screenshots
 
 ---
 
 ## 🎨 Color Theme
 
 ### Page Background
-- Color: `#121212` (dark gray / near-black)
-- Reason:
+- Primary background: `#121212` (dark gray / near black)
+- Rationale:
   - Reduces eye strain
   - Improves contrast for charts and KPI cards
-  - Common in professional analytics tools
+  - Common in enterprise BI tools
 
 ---
 
 ### Chart Containers
-- Charts are placed over **subtle dark backgrounds**
-- In some dashboards, **shape-based gradients** are used behind charts to add depth
-- Chart backgrounds themselves remain transparent
+- Charts sit on **subtle dark containers**
+- Depth is added using **shape-based gradients** (not chart backgrounds)
 
-Example gradient colors:
+Example gradients:
 - `#1B1F2A` → `#2C3242`
 - `#1C1C1C` → `#2A2A2A`
 
-Gradients are applied **only via shapes**, not directly on chart visuals, due to Power BI limitations.
+> Gradients are applied via shapes due to Power BI rendering limitations.
 
 ---
 
 ## 🧾 Typography
 
-- Font color: White or light gray for contrast
-- Font size:
+- Font color: white or light gray
+- Font sizes:
   - Titles: 12–14
   - Axis labels: 10–11
-  - KPI values: Larger for emphasis
-- Avoided decorative fonts to maintain professionalism
+  - KPI values: larger for emphasis
+- Decorative fonts are avoided to maintain a professional look
 
 ---
 
 ## 📊 Chart Design Rules
 
-- Gridlines: ❌ Removed to reduce clutter
+- Gridlines: ❌ removed to reduce clutter
 - Legends:
-  - Disabled where unnecessary
-  - Enabled only for multi-measure charts
+  - Disabled when unnecessary
+  - Enabled only for multi-measure comparisons
 - Data labels:
   - Used selectively
-  - Avoided where they overlap or reduce readability
+  - Avoided when overlapping or reducing clarity
 
 ---
 
 ## 📈 Chart Selection Guidelines
 
-- Bar / Column charts → Category comparison
-- Line charts → Trends and ordered analysis
-- Combo charts → Comparing volume vs rate (e.g., count vs percentage)
-- KPI cards → High-level metrics only
+- Bar / Column → category comparison
+- Line → trends and time-series analysis
+- Combo → volume vs rate comparisons
+- KPI cards → top-level business metrics only
 
 Each chart type is chosen based on **analytical purpose**, not appearance.
 
@@ -74,23 +76,23 @@ Each chart type is chosen based on **analytical purpose**, not appearance.
 
 ## 🎯 Conditional Formatting
 
-- Used sparingly to highlight key patterns
-- Applied only when it adds meaning (e.g., income bands, risk areas)
-- Avoided excessive color usage to prevent misinterpretation
+- Used sparingly
+- Applied only when it adds analytical meaning
+- Avoided excessive colors to prevent misinterpretation
 
 ---
 
-## 🧠 Rationale
+## 🧠 Design Rationale
 
-The theme is designed to:
-- Make insights immediately visible
+This theme is designed to:
+- Surface insights immediately
 - Support executive and recruiter review
-- Ensure dashboards remain understandable when exported as images
-- Reflect real-world business dashboard standards
+- Maintain clarity when dashboards are exported as images
+- Reflect real-world business analytics standards
 
 ---
 
 ## ✅ Final Note
 
-Visual design choices are intentionally minimal and consistent to ensure that **data insights remain the primary focus**.
-
+Design decisions are intentionally minimal and consistent so that
+**business insights remain the primary focus**.
