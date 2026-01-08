@@ -78,8 +78,7 @@ Separated high-level KPIs from detailed driver analysis.
 
 ## 🗂️ Repository Structure
 
-data-analytics-portfolio/
-│
+```data-analytics-portfolio/
 ├── .gitignore
 ├── README.md
 │
@@ -88,7 +87,6 @@ data-analytics-portfolio/
 │
 ├── ecommerce-analytics-elt/
 │   ├── README.md
-│   │
 │   ├── analytics/
 │   │   ├── advanced_joins.sql
 │   │   ├── business_questions.sql
@@ -98,7 +96,6 @@ data-analytics-portfolio/
 │   │   ├── raw/
 │   │   │   ├── olist_customers_dataset.zip
 │   │   │   └── README.md
-│   │   │
 │   │   └── processed/
 │   │       └── README.md
 │   │
@@ -131,40 +128,32 @@ data-analytics-portfolio/
 │
 ├── hr-analytics-dashboard/
 │   ├── README.md
-│   │
 │   ├── charts/
 │   │   ├── overview_page.png
 │   │   └── attrition_drivers_page.png
-│   │
 │   ├── data/
 │   │   └── hr_attrition.csv
-│   │
 │   ├── insights/
 │   │   └── insights.md
-│   │
 │   └── powerbi/
 │       └── hr_attrition_dashboard.pbix
 │
 └── sales-performance-analysis/
     ├── README.md
-    │
     ├── charts/
     │   ├── sales_by_region.png
     │   ├── monthly_sales_trend.png
     │   ├── yoy_sales_growth.png
     │   └── discount_vs_profit.png
-    │
     ├── excel/
     │   └── superstore_analysis.xlsx
-    │
     ├── insights/
     │   └── business_insights.md
-    │
     └── sql/
         ├── schema.sql
         ├── data_cleaning.sql
         └── analysis_queries.sql
-
+```
 ---
 
 ## 👤 About
