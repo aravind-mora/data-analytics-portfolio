@@ -78,7 +78,8 @@ Separated high-level KPIs from detailed driver analysis.
 
 ## 🗂️ Repository Structure
 
-```data-analytics-portfolio/
+```
+data-analytics-portfolio/
 ├── .gitignore
 ├── README.md
 │
