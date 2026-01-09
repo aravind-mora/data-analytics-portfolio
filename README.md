@@ -80,38 +80,39 @@ Separated high-level KPIs from detailed driver analysis.
 
 ```
 data-analytics-portfolio/
-├── .gitignore
-├── README.md
+├── .gitignore                     # Git ignore rules (temp, editor, OS files)
+├── README.md                      # Portfolio overview and project index
 │
-├── assets/
-│   └── dashboard_theme_notes.md
+├── assets/                        # Shared assets across projects
+│   └── dashboard_theme_notes.md   # Dashboard design & visualization standards
 │
-├── ecommerce-analytics-elt/
-│   ├── README.md
-│   ├── analytics/
+├── ecommerce-analytics-elt/       # End-to-end ELT & data modeling project
+│   ├── README.md                  # Project overview & architecture
+│   │
+│   ├── analytics/                 # Business & analytical SQL queries
 │   │   ├── advanced_joins.sql
 │   │   ├── business_questions.sql
 │   │   └── kpi_queries.sql
 │   │
-│   ├── data/
-│   │   ├── raw/
+│   ├── data/                      # Data storage
+│   │   ├── raw/                   # Raw source datasets
 │   │   │   ├── olist_customers_dataset.zip
 │   │   │   └── README.md
-│   │   └── processed/
+│   │   └── processed/             # Processed / transformed data notes
 │   │       └── README.md
 │   │
-│   ├── diagrams/
+│   ├── diagrams/                  # Data model & schema diagrams
 │   │   └── data_schemas.png
 │   │
-│   ├── insights/
+│   ├── insights/                  # Business insights & conclusions
 │   │   └── business_insights.md
 │   │
-│   └── sql/
-│       ├── raw/
+│   └── sql/                       # ELT pipeline SQL
+│       ├── raw/                   # Raw table creation & loading
 │       │   ├── create_raw_tables.sql
 │       │   └── load_raw_data.sql
 │       │
-│       ├── staging/
+│       ├── staging/               # Data cleaning & standardization layer
 │       │   ├── stg_customers.sql
 │       │   ├── stg_orders.sql
 │       │   ├── stg_order_items.sql
@@ -119,7 +120,7 @@ data-analytics-portfolio/
 │       │   ├── stg_products.sql
 │       │   └── stg_sellers.sql
 │       │
-│       └── marts/
+│       └── marts/                 # Analytics-ready star schema
 │           ├── dim_customers.sql
 │           ├── dim_date.sql
 │           ├── dim_payments.sql
@@ -127,33 +128,34 @@ data-analytics-portfolio/
 │           ├── dim_sellers.sql
 │           └── fact_orders.sql
 │
-├── hr-analytics-dashboard/
+├── hr-analytics-dashboard/        # HR attrition analysis & dashboard
 │   ├── README.md
-│   ├── charts/
+│   ├── charts/                    # Dashboard screenshots
 │   │   ├── overview_page.png
 │   │   └── attrition_drivers_page.png
-│   ├── data/
+│   ├── data/                      # HR dataset
 │   │   └── hr_attrition.csv
-│   ├── insights/
+│   ├── insights/                  # HR insights & findings
 │   │   └── insights.md
-│   └── powerbi/
+│   └── powerbi/                   # Power BI report file
 │       └── hr_attrition_dashboard.pbix
 │
-└── sales-performance-analysis/
+└── sales-performance-analysis/    # Sales & profitability analysis
     ├── README.md
-    ├── charts/
+    ├── charts/                    # Analysis visualizations
     │   ├── sales_by_region.png
     │   ├── monthly_sales_trend.png
     │   ├── yoy_sales_growth.png
     │   └── discount_vs_profit.png
-    ├── excel/
+    ├── excel/                     # Excel analysis workbook
     │   └── superstore_analysis.xlsx
-    ├── insights/
+    ├── insights/                  # Sales insights
     │   └── business_insights.md
-    └── sql/
+    └── sql/                       # SQL scripts
         ├── schema.sql
         ├── data_cleaning.sql
         └── analysis_queries.sql
+
 ```
 ---
 
